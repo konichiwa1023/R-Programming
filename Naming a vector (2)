@@ -8,5 +8,5 @@ roulette_vector <- c(-24, -50, 100, -350, 10)
 days_vector <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
  
 # Assign the names of the day to roulette_vector and poker_vector
-names(poker_vector) <-   
-names(roulette_vector) <-
+names(poker_vector) <- days_vector
+names(roulette_vector) <- days_vector
